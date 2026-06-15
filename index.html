@@ -10,12 +10,12 @@
       theme: {
         extend: {
           colors: {
-            primary: '#7C3AED',
-            'primary-dark': '#6D28D9',
-            dark: '#080C14',
-            'dark-surface': '#0D1525',
-            'dark-card': '#111E35',
-            'dark-border': '#1E3157',
+            primary: '#00C06F',
+            'primary-dark': '#009A57',
+            dark: '#0A0D0C',
+            'dark-surface': '#111614',
+            'dark-card': '#181F1C',
+            'dark-border': '#263029',
           },
           fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
           animation: {
@@ -43,7 +43,7 @@
     .reveal.d3 { transition-delay:.3s; }
     .reveal.d4 { transition-delay:.4s; }
     .reveal.d5 { transition-delay:.5s; }
-    .gradient-text { background:linear-gradient(130deg,#fff 0%,#7C3AED 55%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+    .gradient-text { background:linear-gradient(130deg,#fff 0%,#00C06F 55%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
     details > summary { list-style:none; }
     details > summary::-webkit-details-marker { display:none; }
   </style>
@@ -59,7 +59,7 @@
 
     <a href="#" class="flex items-center gap-2.5">
       <span class="flex h-8 w-8 items-center justify-center rounded-xl bg-primary shadow-lg shadow-primary/30">
-        <svg class="h-4 w-4 text-white" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+        <svg class="h-4 w-4 text-dark" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"/>
         </svg>
       </span>
@@ -75,7 +75,7 @@
 
     <a href="https://wa.me/5511983207820?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20SportHub"
        target="_blank" rel="noopener noreferrer"
-       class="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2 text-sm font-semibold text-white hover:bg-primary-dark transition-colors shadow-lg shadow-primary/20">
+       class="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2 text-sm font-semibold text-dark hover:bg-primary-dark transition-colors shadow-lg shadow-primary/20">
       <svg class="h-3.5 w-3.5" fill="currentColor" viewBox="0 0 24 24">
         <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
         <path d="M12 2C6.477 2 2 6.477 2 12c0 1.887.524 3.649 1.435 5.161L2.049 22l4.985-1.306A9.96 9.96 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18.182a8.18 8.18 0 01-4.17-1.141l-.299-.178-3.09.81.824-3.019-.195-.31A8.148 8.148 0 013.818 12c0-4.51 3.671-8.182 8.182-8.182S20.182 7.49 20.182 12c0 4.511-3.672 8.182-8.182 8.182z"/>
@@ -93,10 +93,10 @@
 
   <!-- grid bg -->
   <div class="pointer-events-none absolute inset-0"
-       style="background-image:linear-gradient(rgba(124,58,237,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(124,58,237,0.04) 1px,transparent 1px);background-size:64px 64px;"></div>
+       style="background-image:linear-gradient(rgba(0,192,111,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(0,192,111,0.04) 1px,transparent 1px);background-size:64px 64px;"></div>
   <!-- glow -->
   <div class="pointer-events-none absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px]"
-       style="background:radial-gradient(ellipse at 50% 0%,rgba(124,58,237,0.14) 0%,transparent 65%);"></div>
+       style="background:radial-gradient(ellipse at 50% 0%,rgba(0,192,111,0.14) 0%,transparent 65%);"></div>
 
   <div class="relative mx-auto max-w-6xl px-5 pt-20 pb-28 lg:pt-24 lg:pb-32 grid lg:grid-cols-[3fr_2fr] gap-10 items-center">
 
@@ -119,7 +119,7 @@
 
       <div class="flex flex-wrap gap-3">
         <a href="#como-funciona"
-           class="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-base font-semibold text-white hover:bg-primary-dark transition-all hover:scale-[1.03] shadow-xl shadow-primary/25">
+           class="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-base font-semibold text-dark hover:bg-primary-dark transition-all hover:scale-[1.03] shadow-xl shadow-primary/25">
           Como funciona
           <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
         </a>
@@ -207,10 +207,10 @@
               <div class="rounded-xl bg-primary px-3 py-2.5 flex items-center gap-2 mt-auto">
                 <div class="h-8 w-8 rounded-lg bg-dark/20 flex items-center justify-center text-base flex-shrink-0">🎾</div>
                 <div class="flex-1 min-w-0">
-                  <p class="text-[8px] font-bold text-white/60 uppercase tracking-wider">Próxima aula</p>
-                  <p class="text-[10px] font-black text-white truncate">Beach Tennis · 07:30</p>
+                  <p class="text-[8px] font-bold text-dark/60 uppercase tracking-wider">Próxima aula</p>
+                  <p class="text-[10px] font-black text-dark truncate">Beach Tennis · 07:30</p>
                 </div>
-                <svg class="h-3.5 w-3.5 text-white/50 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/></svg>
+                <svg class="h-3.5 w-3.5 text-dark/50 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/></svg>
               </div>
             </div>
 
@@ -282,7 +282,7 @@
 <section id="como-funciona" class="py-28 relative overflow-hidden">
 
   <div class="pointer-events-none absolute right-0 top-1/3 w-[480px] h-[480px]"
-       style="background:radial-gradient(ellipse at 100% 50%,rgba(124,58,237,0.07) 0%,transparent 70%);"></div>
+       style="background:radial-gradient(ellipse at 100% 50%,rgba(0,192,111,0.07) 0%,transparent 70%);"></div>
 
   <div class="mx-auto max-w-5xl px-5">
 
@@ -307,7 +307,7 @@
         </div>
         <div class="hidden md:flex py-10 pl-14 justify-center border-l border-dark-border">
           <div class="w-56 h-36 rounded-2xl bg-dark-card border border-dark-border relative overflow-hidden flex items-center justify-center"
-               style="background:radial-gradient(ellipse at 80% 20%,rgba(124,58,237,0.1) 0%,transparent 60%);">
+               style="background:radial-gradient(ellipse at 80% 20%,rgba(0,192,111,0.1) 0%,transparent 60%);">
             <div class="grid grid-cols-3 gap-2.5 p-4">
               <div class="aspect-square rounded-xl bg-dark-surface border border-dark-border flex items-center justify-center text-xl">🎾</div>
               <div class="aspect-square rounded-xl bg-primary/15 border border-primary/30 flex items-center justify-center text-xl">🧘</div>
@@ -324,19 +324,19 @@
       <div class="grid md:grid-cols-2 items-center reveal">
         <div class="hidden md:flex py-10 pr-14 justify-center border-r border-dark-border order-1">
           <div class="w-56 rounded-2xl bg-dark-card border border-dark-border overflow-hidden p-4 space-y-2.5"
-               style="background:radial-gradient(ellipse at 20% 80%,rgba(124,58,237,0.08) 0%,transparent 60%);">
+               style="background:radial-gradient(ellipse at 20% 80%,rgba(0,192,111,0.08) 0%,transparent 60%);">
             <div class="flex items-center gap-2.5">
-              <div class="h-8 w-8 rounded-full bg-gradient-to-br from-primary to-primary-dark flex items-center justify-center text-[10px] font-black text-white flex-shrink-0">RC</div>
+              <div class="h-8 w-8 rounded-full bg-gradient-to-br from-primary to-primary-dark flex items-center justify-center text-[10px] font-black text-dark flex-shrink-0">RC</div>
               <div class="flex-1 min-w-0"><p class="text-xs font-bold">Rafael Costa</p><p class="text-[9px] text-white/35">Beach Tennis · ⭐ 4.9</p></div>
               <svg class="h-4 w-4 text-primary flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
             </div>
             <div class="flex items-center gap-2.5">
-              <div class="h-8 w-8 rounded-full bg-gradient-to-br from-fuchsia-400 to-violet-600 flex items-center justify-center text-[10px] font-black text-white flex-shrink-0">AM</div>
+              <div class="h-8 w-8 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center text-[10px] font-black text-white flex-shrink-0">AM</div>
               <div class="flex-1 min-w-0"><p class="text-xs font-bold">Ana Martins</p><p class="text-[9px] text-white/35">Yoga · ⭐ 5.0</p></div>
               <div class="h-4 w-4 rounded-full border border-dark-border flex-shrink-0"></div>
             </div>
             <div class="flex items-center gap-2.5">
-              <div class="h-8 w-8 rounded-full bg-gradient-to-br from-purple-400 to-indigo-600 flex items-center justify-center text-[10px] font-black text-white flex-shrink-0">LP</div>
+              <div class="h-8 w-8 rounded-full bg-gradient-to-br from-orange-400 to-rose-500 flex items-center justify-center text-[10px] font-black text-white flex-shrink-0">LP</div>
               <div class="flex-1 min-w-0"><p class="text-xs font-bold">Lucas Pereira</p><p class="text-[9px] text-white/35">Funcional · ⭐ 4.8</p></div>
               <div class="h-4 w-4 rounded-full border border-dark-border flex-shrink-0"></div>
             </div>
@@ -364,10 +364,10 @@
         </div>
         <div class="hidden md:flex py-10 pl-14 justify-center border-l border-dark-border">
           <div class="w-56 rounded-2xl bg-dark-card border border-dark-border overflow-hidden p-4 space-y-2.5"
-               style="background:radial-gradient(ellipse at 80% 80%,rgba(124,58,237,0.1) 0%,transparent 60%);">
+               style="background:radial-gradient(ellipse at 80% 80%,rgba(0,192,111,0.1) 0%,transparent 60%);">
             <div class="rounded-xl bg-primary/10 border border-primary/25 p-3 flex items-start gap-2.5">
               <div class="h-7 w-7 rounded-lg bg-primary flex items-center justify-center flex-shrink-0">
-                <svg class="h-3.5 w-3.5 text-white" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
+                <svg class="h-3.5 w-3.5 text-dark" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
               </div>
               <div>
                 <p class="text-[10px] font-bold text-primary">Aula confirmada!</p>
@@ -394,7 +394,7 @@
     <div class="mt-12 text-center reveal">
       <a href="https://wa.me/5511983207820?text=Quero%20o%20SportHub%20no%20meu%20condom%C3%ADnio"
          target="_blank" rel="noopener noreferrer"
-         class="inline-flex items-center gap-2.5 rounded-full bg-primary px-8 py-3.5 font-bold text-white hover:bg-primary-dark transition-all hover:scale-[1.03] shadow-xl shadow-primary/20">
+         class="inline-flex items-center gap-2.5 rounded-full bg-primary px-8 py-3.5 font-bold text-dark hover:bg-primary-dark transition-all hover:scale-[1.03] shadow-xl shadow-primary/20">
         Quero isso no meu condomínio
         <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
       </a>
@@ -470,7 +470,7 @@
 
       <!-- condomínio -->
       <div class="rounded-2xl bg-dark-card border border-primary/15 p-8 space-y-6 reveal d1"
-           style="background:linear-gradient(145deg,rgba(124,58,237,0.05) 0%,rgba(17,30,53,1) 60%);">
+           style="background:linear-gradient(145deg,rgba(0,192,111,0.05) 0%,rgba(24,31,28,1) 60%);">
         <div class="flex items-center gap-3">
           <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/15 text-xl flex-shrink-0">🏢</span>
           <div>
@@ -572,9 +572,9 @@
 
         <!-- com -->
         <div class="p-8 md:p-10 space-y-5 relative overflow-hidden"
-             style="background:linear-gradient(135deg,rgba(124,58,237,0.07) 0%,rgba(8,12,20,1) 65%);">
+             style="background:linear-gradient(135deg,rgba(0,192,111,0.07) 0%,rgba(10,13,12,1) 65%);">
           <div class="absolute top-0 right-0 w-48 h-48 rounded-full pointer-events-none"
-               style="background:radial-gradient(ellipse at center,rgba(124,58,237,0.12) 0%,transparent 65%);transform:translate(30%,-30%);"></div>
+               style="background:radial-gradient(ellipse at center,rgba(0,192,111,0.12) 0%,transparent 65%);transform:translate(30%,-30%);"></div>
           <p class="inline-flex items-center gap-2 text-xs font-bold text-primary uppercase tracking-widest">
             <span class="h-2 w-2 rounded-full bg-primary animate-pulse-dot"></span> Com SportHub
           </p>
@@ -626,7 +626,7 @@
           Eu passava 40 minutos no trânsito só pra treinar. Hoje desço o elevador e estou na quadra. Minha rotina mudou completamente.
         </p>
         <div class="flex items-center gap-3 pt-4 border-t border-dark-border">
-          <div class="h-9 w-9 rounded-full bg-gradient-to-br from-primary to-primary-dark flex items-center justify-center text-xs font-black text-white flex-shrink-0">CA</div>
+          <div class="h-9 w-9 rounded-full bg-gradient-to-br from-primary to-primary-dark flex items-center justify-center text-xs font-black text-dark flex-shrink-0">CA</div>
           <div>
             <p class="text-sm font-bold">Camila Araújo</p>
             <p class="text-xs text-white/35">Moradora · Res. Vila Verde, SP</p>
@@ -640,7 +640,7 @@
           Implementamos em 3 dias. Os moradores adoraram e as áreas comuns nunca foram tão movimentadas.
         </p>
         <div class="flex items-center gap-3 pt-4 border-t border-dark-border">
-          <div class="h-9 w-9 rounded-full bg-gradient-to-br from-violet-500 to-purple-700 flex items-center justify-center text-xs font-black text-white flex-shrink-0">MS</div>
+          <div class="h-9 w-9 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-xs font-black text-white flex-shrink-0">MS</div>
           <div>
             <p class="text-sm font-bold">Marcos Silveira</p>
             <p class="text-xs text-white/35">Síndico · Cond. Alto Rio</p>
@@ -654,7 +654,7 @@
           Agendei a primeira aula em 2 minutos. Professor pontualíssimo. Recomendo pra todo mundo do condomínio.
         </p>
         <div class="flex items-center gap-3 pt-4 border-t border-dark-border">
-          <div class="h-9 w-9 rounded-full bg-gradient-to-br from-violet-400 to-purple-600 flex items-center justify-center text-xs font-black text-white flex-shrink-0">BR</div>
+          <div class="h-9 w-9 rounded-full bg-gradient-to-br from-emerald-400 to-teal-600 flex items-center justify-center text-xs font-black text-dark flex-shrink-0">BR</div>
           <div>
             <p class="text-sm font-bold">Bruno Ramos</p>
             <p class="text-xs text-white/35">Morador · Cond. Mar Azul</p>
@@ -697,7 +697,7 @@
         <summary class="flex items-center justify-between gap-4 text-base font-semibold text-white/75 hover:text-white transition-colors">
           O app é gratuito para moradores?
           <span class="flex-shrink-0 h-7 w-7 rounded-full border border-dark-border flex items-center justify-center group-open:bg-primary group-open:border-primary transition-all">
-            <svg class="h-3 w-3 text-white/40 group-open:text-white group-open:rotate-45 transition-all duration-200" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/></svg>
+            <svg class="h-3 w-3 text-white/40 group-open:text-dark group-open:rotate-45 transition-all duration-200" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/></svg>
           </span>
         </summary>
         <p class="mt-3 text-sm text-white/45 leading-relaxed pr-10">Sim. Entrada no app é totalmente gratuita para moradores e professores. Não há taxa de adesão nem mensalidade de plataforma.</p>
@@ -707,7 +707,7 @@
         <summary class="flex items-center justify-between gap-4 text-base font-semibold text-white/75 hover:text-white transition-colors">
           Como os professores são verificados?
           <span class="flex-shrink-0 h-7 w-7 rounded-full border border-dark-border flex items-center justify-center group-open:bg-primary group-open:border-primary transition-all">
-            <svg class="h-3 w-3 text-white/40 group-open:text-white group-open:rotate-45 transition-all duration-200" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/></svg>
+            <svg class="h-3 w-3 text-white/40 group-open:text-dark group-open:rotate-45 transition-all duration-200" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/></svg>
           </span>
         </summary>
         <p class="mt-3 text-sm text-white/45 leading-relaxed pr-10">Cada profissional passa por análise de formação, certificações e antecedentes antes de ser aceito. Após cada aula, moradores avaliam o professor. A qualidade se mantém constante.</p>
@@ -717,7 +717,7 @@
         <summary class="flex items-center justify-between gap-4 text-base font-semibold text-white/75 hover:text-white transition-colors">
           O condomínio precisa investir em infraestrutura?
           <span class="flex-shrink-0 h-7 w-7 rounded-full border border-dark-border flex items-center justify-center group-open:bg-primary group-open:border-primary transition-all">
-            <svg class="h-3 w-3 text-white/40 group-open:text-white group-open:rotate-45 transition-all duration-200" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/></svg>
+            <svg class="h-3 w-3 text-white/40 group-open:text-dark group-open:rotate-45 transition-all duration-200" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/></svg>
           </span>
         </summary>
         <p class="mt-3 text-sm text-white/45 leading-relaxed pr-10">Não. O SportHub utiliza as áreas comuns que já existem: quadras, salões, espaços de lazer. Nenhuma obra ou investimento adicional é necessário.</p>
@@ -727,7 +727,7 @@
         <summary class="flex items-center justify-between gap-4 text-base font-semibold text-white/75 hover:text-white transition-colors">
           Como funciona o agendamento?
           <span class="flex-shrink-0 h-7 w-7 rounded-full border border-dark-border flex items-center justify-center group-open:bg-primary group-open:border-primary transition-all">
-            <svg class="h-3 w-3 text-white/40 group-open:text-white group-open:rotate-45 transition-all duration-200" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/></svg>
+            <svg class="h-3 w-3 text-white/40 group-open:text-dark group-open:rotate-45 transition-all duration-200" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/></svg>
           </span>
         </summary>
         <p class="mt-3 text-sm text-white/45 leading-relaxed pr-10">Pelo app: escolha a atividade → selecione o professor → confirme horário. Em menos de 2 minutos você recebe a confirmação e um lembrete antes da aula.</p>
@@ -737,7 +737,7 @@
         <summary class="flex items-center justify-between gap-4 text-base font-semibold text-white/75 hover:text-white transition-colors">
           Posso indicar um professor de confiança?
           <span class="flex-shrink-0 h-7 w-7 rounded-full border border-dark-border flex items-center justify-center group-open:bg-primary group-open:border-primary transition-all">
-            <svg class="h-3 w-3 text-white/40 group-open:text-white group-open:rotate-45 transition-all duration-200" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/></svg>
+            <svg class="h-3 w-3 text-white/40 group-open:text-dark group-open:rotate-45 transition-all duration-200" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/></svg>
           </span>
         </summary>
         <p class="mt-3 text-sm text-white/45 leading-relaxed pr-10">Sim. Moradores e síndicos podem indicar profissionais. O SportHub avalia e, se aprovado, o professor já aparece como opção para o seu condomínio.</p>
@@ -747,7 +747,7 @@
         <summary class="flex items-center justify-between gap-4 text-base font-semibold text-white/75 hover:text-white transition-colors">
           Quanto tempo leva para implementar?
           <span class="flex-shrink-0 h-7 w-7 rounded-full border border-dark-border flex items-center justify-center group-open:bg-primary group-open:border-primary transition-all">
-            <svg class="h-3 w-3 text-white/40 group-open:text-white group-open:rotate-45 transition-all duration-200" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/></svg>
+            <svg class="h-3 w-3 text-white/40 group-open:text-dark group-open:rotate-45 transition-all duration-200" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/></svg>
           </span>
         </summary>
         <p class="mt-3 text-sm text-white/45 leading-relaxed pr-10">A implementação pode ocorrer em poucos dias. Nossa equipe cuida de todo o onboarding. Entre em contato pelo WhatsApp e a gente resolve.</p>
@@ -776,7 +776,7 @@
       <!-- síndico -->
       <div class="group relative rounded-3xl border border-dark-border bg-dark-card overflow-hidden p-9 flex flex-col gap-7 hover:border-dark-border transition-all hover:-translate-y-0.5">
         <div class="absolute top-0 right-0 w-52 h-52 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
-             style="background:radial-gradient(ellipse at center,rgba(124,58,237,0.09) 0%,transparent 70%);transform:translate(35%,-35%);"></div>
+             style="background:radial-gradient(ellipse at center,rgba(0,192,111,0.09) 0%,transparent 70%);transform:translate(35%,-35%);"></div>
         <div class="flex items-start justify-between">
           <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-dark-surface border border-dark-border text-2xl">🏢</div>
           <span class="text-xs font-bold text-white/15 uppercase tracking-widest mt-1">01</span>
@@ -788,7 +788,7 @@
         </div>
         <a href="https://wa.me/5511983207820?text=Ol%C3%A1!%20Sou%20s%C3%ADndico%20e%20quero%20implementar%20o%20SportHub%20no%20meu%20condom%C3%ADnio"
            target="_blank" rel="noopener noreferrer"
-           class="inline-flex items-center justify-center gap-2 rounded-2xl bg-primary py-3.5 font-bold text-white hover:bg-primary-dark transition-all">
+           class="inline-flex items-center justify-center gap-2 rounded-2xl bg-primary py-3.5 font-bold text-dark hover:bg-primary-dark transition-all">
           Quero implementar
           <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
         </a>
@@ -796,9 +796,9 @@
 
       <!-- morador -->
       <div class="relative rounded-3xl border border-primary/20 overflow-hidden p-9 flex flex-col gap-7 hover:-translate-y-0.5 transition-all"
-           style="background:linear-gradient(140deg,rgba(124,58,237,0.07) 0%,rgba(17,30,53,1) 55%);">
+           style="background:linear-gradient(140deg,rgba(0,192,111,0.07) 0%,rgba(24,31,28,1) 55%);">
         <div class="absolute top-0 right-0 w-60 h-60 rounded-full pointer-events-none"
-             style="background:radial-gradient(ellipse at center,rgba(124,58,237,0.1) 0%,transparent 65%);transform:translate(35%,-35%);"></div>
+             style="background:radial-gradient(ellipse at center,rgba(0,192,111,0.1) 0%,transparent 65%);transform:translate(35%,-35%);"></div>
         <div class="flex items-start justify-between relative">
           <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/20 border border-primary/25 text-2xl">🏃</div>
           <span class="text-xs font-bold text-primary/25 uppercase tracking-widest mt-1">02</span>
@@ -810,7 +810,7 @@
         </div>
         <a href="https://wa.me/5511983207820?text=Ol%C3%A1!%20Sou%20morador%20e%20quero%20o%20SportHub%20no%20meu%20condom%C3%ADnio"
            target="_blank" rel="noopener noreferrer"
-           class="relative inline-flex items-center justify-center gap-2 rounded-2xl bg-primary py-3.5 font-bold text-white hover:bg-primary-dark transition-all">
+           class="relative inline-flex items-center justify-center gap-2 rounded-2xl bg-primary py-3.5 font-bold text-dark hover:bg-primary-dark transition-all">
           Quero no meu cond.
           <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
         </a>
@@ -827,12 +827,12 @@
      FINAL CTA — full bleed
 ══════════════════════════════════════════════════════════ -->
 <section class="relative overflow-hidden border-t border-primary/10"
-         style="background:linear-gradient(140deg,#1a0933 0%,#07040d 100%);">
+         style="background:linear-gradient(140deg,#003d22 0%,#001a0f 100%);">
   <div class="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full border border-primary/8"></div>
   <div class="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[480px] h-[480px] rounded-full border border-primary/10"></div>
   <div class="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[280px] h-[280px] rounded-full border border-primary/12"></div>
   <div class="pointer-events-none absolute inset-0"
-       style="background:radial-gradient(ellipse at 50% 50%,rgba(124,58,237,0.15) 0%,transparent 60%);"></div>
+       style="background:radial-gradient(ellipse at 50% 50%,rgba(0,192,111,0.15) 0%,transparent 60%);"></div>
 
   <div class="relative mx-auto max-w-3xl px-5 py-28 text-center space-y-8">
     <div class="reveal">
@@ -845,7 +845,7 @@
     <div class="flex flex-wrap gap-3 justify-center reveal d1">
       <a href="https://wa.me/5511983207820?text=Ol%C3%A1!%20Sou%20s%C3%ADndico%20e%20quero%20implementar%20o%20SportHub"
          target="_blank" rel="noopener noreferrer"
-         class="inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 text-base font-black text-white hover:bg-primary-dark transition-all hover:scale-[1.03] shadow-2xl shadow-primary/25">
+         class="inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 text-base font-black text-dark hover:bg-primary-dark transition-all hover:scale-[1.03] shadow-2xl shadow-primary/25">
         Sou síndico, quero implementar
         <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
       </a>
@@ -869,7 +869,7 @@
       <div class="space-y-3">
         <a href="#" class="inline-flex items-center gap-2">
           <span class="flex h-7 w-7 items-center justify-center rounded-xl bg-primary shadow-md shadow-primary/25">
-            <svg class="h-3.5 w-3.5 text-white" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+            <svg class="h-3.5 w-3.5 text-dark" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"/>
             </svg>
           </span>
